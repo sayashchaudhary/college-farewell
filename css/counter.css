@@ -1,0 +1,25 @@
+.count{
+    margin: 40px;
+    color:white;
+}
+.top{
+    font-size: 48px;
+    text-decoration: underline;
+
+}
+.counts{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #19f6e8;
+    font-size: 14px;
+    overflow: hidden;
+    margin: 30px;
+}
+.counts span{
+    display: block;
+    font-size: 28px;
+    color:white;
+    margin-top: 16px;
+}
