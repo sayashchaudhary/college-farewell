@@ -8,6 +8,12 @@
     <link href="../css/about.css" rel="stylesheet" type="text/css">
     <link href="../css/swiper.min.css" rel="stylesheet" type="text/css">
     <link href="../css/gallery.css" rel="stylesheet" type="text/css">
+    <link href="../css/finalist.css" rel="stylesheet" type="text/css">
+    <link href="../css/convenors.css" rel="stylesheet" type="text/css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
@@ -17,12 +23,13 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <body>
+
 <script type="text/javascript" src="../js/home.js"></script>
 <script type="text/javascript" src="../js/swiper.min.js"></script>
 
 <!--HOME PAGE-->
-<nav class="navbar navbar-fixed-top">
-    <div class="container" style="background-color: transparent;margin-top: 1%">
+<nav class="navbar navbar-fixed-top" style="background-color: black">
+    <div class="container" style="margin-top: 1%;margin-bottom: 1%">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
@@ -34,10 +41,11 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav" style="float: right">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Finalists</a></li>
-                <li><a href="#">Convenors</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#finalist">Finalists</a></li>
+                <li><a href="#organizer">Organizer</a></li>
+                <li><a href="#convenor">Convenors</a></li>
                 <li><a href="#">Web Team</a></li>
             </ul>
         </div>
@@ -71,15 +79,35 @@
                         <div class="text">VOTE NOW</div>
                     </a>
                 </div>
-                <div class="scroll">
-                    <a href="#"><span></span></a>
+                <div class="ico animated">
+                    <div class="circle circle-top"></div>
+                    <div class="circle circle-main"></div>
+                    <div class="circle circle-bottom"></div>
+                    <a href="#about">
+                        <svg class="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve" >
+                        <defs>
+                            <clipPath id="cut-off-arrow">
+                                <circle cx="306" cy="306" r="287"/>
+                            </clipPath>
+                            <filter id="goo">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                                <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                        </defs>
+                        <path  class="st-arrow" d="M317.5,487.6c0.3-0.3,0.4-0.7,0.7-1.1l112.6-112.6c6.3-6.3,6.3-16.5,0-22.7c-6.3-6.3-16.5-6.3-22.7,0
+					    l-86,86V136.1c0-8.9-7.3-16.2-16.2-16.2c-8.9,0-16.2,7.3-16.2,16.2v301.1l-86-86c-6.3-6.3-16.5-6.3-22.7,0
+					    c-6.3,6.3-6.3,16.5,0,22.7l112.7,112.7c0.3,0.3,0.4,0.7,0.7,1c0.5,0.5,1.2,0.5,1.7,0.9c1.7,1.4,3.6,2.3,5.6,2.9
+					    c0.8,0.2,1.5,0.4,2.3,0.4C308.8,492.6,313.8,491.3,317.5,487.6z"/>
+                    </svg>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
 <!--ABOUT FAREWELL-->
-<section>
+<section id="about" class="about">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6">
@@ -92,7 +120,7 @@
                             <strong>ABOUT AMANTRYA</strong>
                         </h2>
                     </div>
-                    <p>
+                    <p style="color: white">
                         Lorem ipsum dolor sit amet, impedit fastidii reprehe
                         ndunt est ei, sit ea alii omnis. Prima semper voluptatum
                         sed in, hinc regione vel ut. Eum sint nonumy s harum putant
@@ -107,8 +135,13 @@
 
 <!--GALLERY-->
 
-<section>
+<section id="gallery">
     <div class="swiper-container">
+        <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4">
+            <h2 style="margin-bottom: 3%;font-size: 40px;color: #19f6e8;top:0">
+                GALLERY
+            </h2>
+        </div>
         <div class="swiper-wrapper">
             <div class="swiper-slide" style="background-image:url(../assets/man.png)"></div>
             <div class="swiper-slide" style="background-image:url(../assets/man.png)"></div>
@@ -125,6 +158,199 @@
         <div class="swiper-pagination"></div>
         <!--<div class="swiper-button-next"></div>-->
         <!--<div class="swiper-button-prev"></div>-->
+    </div>
+</section>
+
+<!--FINALIST-->
+
+<section id="finalist">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4">
+                <h2 style="  margin-bottom: 3%;font-size: 40px;color: #19f6e8;margin-top: 5vh">
+                   FINALISTS
+                </h2>
+            </div>
+            <div class="details">
+                <div class="col-md-6 col-sm-6">
+                    <div class="col-sm-4 col-md-4">
+                        <div class="finalists">
+                            <img src="../assets/image-7.jpg" class="img-responsive">
+                            <img src="../assets/box.jpg" class="img-box">
+                            <h3 class="name">CHUTIYA</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="finalists">
+                            <img src="../assets/image-7.jpg" class="img-responsive">
+                            <img src="../assets/box.jpg" class="img-box">
+
+                            <h3 class="name">CHUTIYA</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="finalists">
+                            <img src="../assets/image-7.jpg" class="img-responsive">
+                            <img src="../assets/box.jpg" class="img-box">
+
+                            <h3 class="name">CHUTIYA</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="col-sm-4 col-md-4">
+                        <div class="finalists">
+                            <img src="../assets/image-7.jpg" class="img-responsive">
+                            <img src="../assets/box.jpg" class="img-box">
+
+                            <h3 class="name">CHUTIYA</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="finalists">
+                            <img src="../assets/image-7.jpg" class="img-responsive">
+                            <img src="../assets/box.jpg" class="img-box">
+
+                            <h3 class="name">CHUTIYA</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div class="col-md-6 col-sm-6">
+                    <div class="col-sm-4 col-md-4">
+                        <div class="finalists">
+                            <img src="../assets/image-7.jpg" class="img-responsive">
+
+                            <img src="../assets/box.jpg" class="img-box">
+                            <h3 class="name">CHUTIYA</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="finalists">
+                            <img src="../assets/image-7.jpg" class="img-responsive">
+
+                            <img src="../assets/box.jpg" class="img-box">
+                            <h3 class="name">CHUTIYA</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="finalists">
+                            <img src="../assets/image-7.jpg" class="img-responsive">
+
+                            <img src="../assets/box.jpg" class="img-box">
+                            <h3 class="name">CHUTIYA</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="col-sm-4 col-md-4">
+                        <div class="finalists">
+                            <img src="../assets/image-7.jpg" class="img-responsive">
+
+                            <img src="../assets/box.jpg" class="img-box">
+                            <h3 class="name">CHUTIYA</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="finalists">
+                            <img src="../assets/image-7.jpg" class="img-responsive">
+
+                            <img src="../assets/box.jpg" class="img-box">
+                            <h3 class="name">CHUTIYA</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--ORGANISING HEAD-->
+
+<section class="organizer" id="organizer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4">
+                <h1 style="margin-bottom: 3%;font-size: 40px;color: #19f6e8;margin-top: 5vh">
+                    ORGANIZING HEAD
+                </h1>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <img class="img-responsive" src="../assets/man.png">
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <h2 class="name">
+                    His Thoughts...
+                </h2>
+                <p class="name">
+                    Lorem ipsum dolor sit amet, impedit fastidii reprehe
+                    ndunt est ei, sit ea alii omnis. Prima semper voluptatum
+                    sed in, hinc regione vel ut. Eum sint nonumy s harum putant
+                    forensibus. Illud exerci vulputate et eum, dicam insolens
+                    adoum cu case quando facilisi, recusabo repudiandae an pro.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--CONVENORS-->
+
+<section class="convenors" id="convenor">
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4">
+                <h1 style="margin-bottom: 5%;font-size: 40px;color: #19f6e8;margin-top: 5vh">
+                    CONVENORS
+                </h1>
+            </div>
+        </div>
+        <!--<div class="covenor-content">-->
+            <img src="../assets/image-7.jpg" class="img-responsive">
+            <div class="card">
+                <h1>
+                    NAME
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, impedit fastidii reprehe
+                    ndunt est ei, sit ea alii omnis. Prima semper voluptatum
+                    sed in, hinc regione vel ut. Eum sint nonumy s harum putant
+                    forensibus. Illud exerci vulputate et eum, dicam insolens
+                    adoum cu case quando facilisi, recusabo repudiandae an pro.
+                </p>
+            </div>
+        <!--</div>-->
+        <div class="covenor-content">
+            <img src="../assets/image-7.jpg" class="img-responsive" style="margin-top: -10%">
+            <div class="card1">
+                <h1>
+                    NAME
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, impedit fastidii reprehe
+                    ndunt est ei, sit ea alii omnis. Prima semper voluptatum
+                    sed in, hinc regione vel ut. Eum sint nonumy s harum putant
+                    forensibus. Illud exerci vulputate et eum, dicam insolens
+                    adoum cu case quando facilisi, recusabo repudiandae an pro.
+                </p>
+            </div>
+        </div>
+        <!--<div class="covenor-content">-->
+            <img src="../assets/image-7.jpg" class="img-responsive" style="margin-top: 10%">
+            <div class="card">
+                <h1>
+                    NAME
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, impedit fastidii reprehe
+                    ndunt est ei, sit ea alii omnis. Prima semper voluptatum
+                    sed in, hinc regione vel ut. Eum sint nonumy s harum putant
+                    forensibus. Illud exerci vulputate et eum, dicam insolens
+                    adoum cu case quando facilisi, recusabo repudiandae an pro.
+                </p>
+            </div>
+        <!--</div>-->
     </div>
 </section>
 </body>
@@ -302,9 +528,9 @@
 <!--SCROLL BUTTON-->
 <script>
     $(function() {
-        $('a[href*=#]').on('click', function(e) {
-            e.preventDefault();
-            $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+        $('.ico').click (function() {
+            $('html, body').animate({scrollTop:900 }, 1000);
+            return false;
         });
     });
 </script>

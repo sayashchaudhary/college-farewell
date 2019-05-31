@@ -1,0 +1,21 @@
+.details{
+    padding-left: 9%;
+    margin-left: 5%;
+    float: right;
+    margin-bottom: 2vh;
+}
+.details .finalists h3{
+    text-align: center;
+}
+.img-box{
+    position: absolute;
+    top: 25px;
+    right:-8px;
+}
+.name{
+    color:white;
+}
+
+#finalist{
+    background-color: black;
+}

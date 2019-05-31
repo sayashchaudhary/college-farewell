@@ -1,0 +1,33 @@
+.convenors{
+    background-color: black;
+}
+.card{
+    border: 1px solid white;
+    width:50%;
+    background-color: #FFFFFF;
+    position: relative;
+    top: -230px;
+    left: 230px;
+}
+.card h1,
+.card p{
+    padding-left: 4%;
+    padding-right: 1%;
+}
+.card1{
+    border: 1px solid white;
+    width:50%;
+    background-color: #FFFFFF;
+    position: relative;
+    top: -50px;
+    left: 350px;
+}
+.covenor-content img{
+    float:right;
+}
+.card1 h1,
+.card1 p{
+    padding-left: 4%;
+    padding-right: 1%;
+}
+
