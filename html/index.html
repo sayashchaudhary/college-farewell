@@ -10,7 +10,13 @@
     <link href="../css/gallery.css" rel="stylesheet" type="text/css">
     <link href="../css/finalist.css" rel="stylesheet" type="text/css">
     <link href="../css/convenors.css" rel="stylesheet" type="text/css">
-
+    <link href="../css/scrollbtn.css" rel="stylesheet" type="text/css">
+    <!--<link href="../css/aos.css" rel="stylesheet" type="text/css">-->
+    <link href="../css/_animations.css" rel="stylesheet" type="text/css">
+    <link href="../css/_core.css" rel="stylesheet" type="text/css">
+    <link href="../css/_easing.css" rel="stylesheet" type="text/css">
+    <link href="../css/webteam.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -26,6 +32,7 @@
 
 <script type="text/javascript" src="../js/home.js"></script>
 <script type="text/javascript" src="../js/swiper.min.js"></script>
+<!--<script type="text/javascript" src="../js/aos.js"></script>-->
 
 <!--HOME PAGE-->
 <nav class="navbar navbar-fixed-top" style="background-color: black">
@@ -44,9 +51,9 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#finalist">Finalists</a></li>
-                <li><a href="#organizer">Organizer</a></li>
+                <!--<li><a href="#organizer">Organizer</a></li>-->
                 <li><a href="#convenor">Convenors</a></li>
-                <li><a href="#">Web Team</a></li>
+                <li><a href="#webteam">Web Team</a></li>
             </ul>
         </div>
     </div>
@@ -79,28 +86,8 @@
                         <div class="text">VOTE NOW</div>
                     </a>
                 </div>
-                <div class="ico animated">
-                    <div class="circle circle-top"></div>
-                    <div class="circle circle-main"></div>
-                    <div class="circle circle-bottom"></div>
-                    <a href="#about">
-                        <svg class="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve" >
-                        <defs>
-                            <clipPath id="cut-off-arrow">
-                                <circle cx="306" cy="306" r="287"/>
-                            </clipPath>
-                            <filter id="goo">
-                                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-                                <feBlend in="SourceGraphic" in2="goo" />
-                            </filter>
-                        </defs>
-                        <path  class="st-arrow" d="M317.5,487.6c0.3-0.3,0.4-0.7,0.7-1.1l112.6-112.6c6.3-6.3,6.3-16.5,0-22.7c-6.3-6.3-16.5-6.3-22.7,0
-					    l-86,86V136.1c0-8.9-7.3-16.2-16.2-16.2c-8.9,0-16.2,7.3-16.2,16.2v301.1l-86-86c-6.3-6.3-16.5-6.3-22.7,0
-					    c-6.3,6.3-6.3,16.5,0,22.7l112.7,112.7c0.3,0.3,0.4,0.7,0.7,1c0.5,0.5,1.2,0.5,1.7,0.9c1.7,1.4,3.6,2.3,5.6,2.9
-					    c0.8,0.2,1.5,0.4,2.3,0.4C308.8,492.6,313.8,491.3,317.5,487.6z"/>
-                    </svg>
-                    </a>
+                <div class="scroll">
+                    <a href="#" class="scroll-down"><span></span><span></span><span></span></a>
                 </div>
             </div>
         </div>
@@ -108,7 +95,7 @@
 
 <!--ABOUT FAREWELL-->
 <section id="about" class="about">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-md-6 col-sm-6">
                 <img src="../assets/man.png" class="img-responsive">
@@ -167,7 +154,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4">
-                <h2 style="  margin-bottom: 3%;font-size: 40px;color: #19f6e8;margin-top: 5vh">
+                <h2 style="margin-bottom: 3%;font-size: 40px;color: #19f6e8;margin-top: 5vh">
                    FINALISTS
                 </h2>
             </div>
@@ -182,28 +169,31 @@
                     </div>
                     <div class="col-sm-4 col-md-4">
                         <div class="finalists">
-                            <img src="../assets/image-7.jpg" class="img-responsive">
-                            <img src="../assets/box.jpg" class="img-box">
-
-                            <h3 class="name">CHUTIYA</h3>
+                            <div class="align">
+                                <img src="../assets/image-7.jpg" class="img-responsive">
+                                <img src="../assets/box.jpg" class="img-box">
+                                <h3 class="name">CHUTIYA</h3>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4">
                         <div class="finalists">
-                            <img src="../assets/image-7.jpg" class="img-responsive">
-                            <img src="../assets/box.jpg" class="img-box">
-
-                            <h3 class="name">CHUTIYA</h3>
+                            <div class="align2">
+                                <img src="../assets/image-7.jpg" class="img-responsive">
+                                <img src="../assets/box.jpg" class="img-box">
+                                <h3 class="name">CHUTIYA</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <div class="col-sm-4 col-md-4">
                         <div class="finalists">
-                            <img src="../assets/image-7.jpg" class="img-responsive">
-                            <img src="../assets/box.jpg" class="img-box">
-
-                            <h3 class="name">CHUTIYA</h3>
+                            <div class="align3">
+                                <img src="../assets/image-7.jpg" class="img-responsive">
+                                <img src="../assets/box.jpg" class="img-box">
+                                <h3 class="name">CHUTIYA</h3>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4">
@@ -220,42 +210,45 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="col-sm-4 col-md-4">
                         <div class="finalists">
-                            <img src="../assets/image-7.jpg" class="img-responsive">
-
-                            <img src="../assets/box.jpg" class="img-box">
-                            <h3 class="name">CHUTIYA</h3>
+                            <div class="align6">
+                                <img src="../assets/image-7.jpg" class="img-responsive">
+                                <img src="../assets/box.jpg" class="img-box">
+                                <h3 class="name">CHUTIYA</h3>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4">
                         <div class="finalists">
-                            <img src="../assets/image-7.jpg" class="img-responsive">
-
-                            <img src="../assets/box.jpg" class="img-box">
-                            <h3 class="name">CHUTIYA</h3>
+                            <div class="align2">
+                                <img src="../assets/image-7.jpg" class="img-responsive">
+                                <img src="../assets/box.jpg" class="img-box">
+                                <h3 class="name">CHUTIYA</h3>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4">
                         <div class="finalists">
-                            <img src="../assets/image-7.jpg" class="img-responsive">
-
-                            <img src="../assets/box.jpg" class="img-box">
-                            <h3 class="name">CHUTIYA</h3>
+                            <div class="align4">
+                                <img src="../assets/image-7.jpg" class="img-responsive">
+                                <img src="../assets/box.jpg" class="img-box">
+                                <h3 class="name">CHUTIYA</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <div class="col-sm-4 col-md-4">
                         <div class="finalists">
-                            <img src="../assets/image-7.jpg" class="img-responsive">
-
-                            <img src="../assets/box.jpg" class="img-box">
-                            <h3 class="name">CHUTIYA</h3>
+                            <div class="align5">
+                                <img src="../assets/image-7.jpg" class="img-responsive">
+                                <img src="../assets/box.jpg" class="img-box">
+                                <h3 class="name">CHUTIYA</h3>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-4 col-md-4">
                         <div class="finalists">
                             <img src="../assets/image-7.jpg" class="img-responsive">
-
                             <img src="../assets/box.jpg" class="img-box">
                             <h3 class="name">CHUTIYA</h3>
                         </div>
@@ -269,27 +262,27 @@
 <!--ORGANISING HEAD-->
 
 <section class="organizer" id="organizer">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4">
-                <h1 style="margin-bottom: 3%;font-size: 40px;color: #19f6e8;margin-top: 5vh">
+                <h1 style="margin-bottom: 5%;font-size: 40px;color: #19f6e8;margin-top: 5vh">
                     ORGANIZING HEAD
                 </h1>
-            </div>
-            <div class="col-sm-6 col-md-6">
-                <img class="img-responsive" src="../assets/man.png">
-            </div>
-            <div class="col-sm-6 col-md-6">
-                <h2 class="name">
-                    His Thoughts...
-                </h2>
-                <p class="name">
-                    Lorem ipsum dolor sit amet, impedit fastidii reprehe
-                    ndunt est ei, sit ea alii omnis. Prima semper voluptatum
-                    sed in, hinc regione vel ut. Eum sint nonumy s harum putant
-                    forensibus. Illud exerci vulputate et eum, dicam insolens
-                    adoum cu case quando facilisi, recusabo repudiandae an pro.
-                </p>
+                <div class="col-sm-7 col-md-7">
+                    <img src="../assets/image-7.jpg" class="img-responsive">
+                </div>
+                <div class="col-sm-5 col-md-5">
+                    <h2>
+                        His Thoughts......
+                    </h2>
+                    <h3 style="color: white">
+                        Lorem ipsum dolor sit amet, impedit fastidii reprehe
+                        ndunt est ei, sit ea alii omnis. Prima semper voluptatum
+                        sed in, hinc regione vel ut. Eum sint nonumy s harum putant
+                        forensibus. Illud exerci vulputate et eum, dicam insolens
+                        adoum cu case quando facilisi, recusabo repudiandae an pro.
+                    </h3>
+                </div>
             </div>
         </div>
     </div>
@@ -353,10 +346,136 @@
         <!--</div>-->
     </div>
 </section>
+
+<!--WEB TEAM-->
+
+<section class="webteam" id="webteam">
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4">
+                <h1 style="margin-bottom: 5%;font-size: 40px;color: #19f6e8;">
+                    WEB TEAM
+                </h1>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="web">
+                    <div class="dropdown" style="float:right;">
+                        <img src="../assets/1610012.jpeg" class="img-responsive">
+                        <h3 class="developer">
+                            Amritansh Kr. Yadav
+                        </h3>
+                        <div class="dropdown-content">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="web">
+                    <div class="dropdown" style="float:right;">
+                        <img src="../assets/1613008.jpeg" class="img-responsive">
+                        <h3 class="developer">
+                            Naimish Verma
+                        </h3>
+                        <div class="dropdown-content">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="web">
+                    <div class="dropdown" style="float:right;">
+                        <img src="../assets/1610118.jpeg" class="img-responsive">
+                        <h3 class="developer">
+                            Preet Dewan
+                        </h3>
+                        <div class="dropdown-content">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="web">
+                    <div class="dropdown" style="float:right;">
+                        <img src="../assets/1613116.jpeg" class="img-responsive">
+                        <h3 class="developer">
+                            Utkarsh Varshney
+                        </h3>
+                        <div class="dropdown-content">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--FOOTER-->
+
+<section class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="text-center col-md-6 col-sm-6">
+                <h4 class="heading">
+                    Ajay Kumar Garg Engineeering College
+                </h4>
+            </div>
+            <div class="text-center col-md-6 col-sm-6">
+                <h4 class="heading">
+                    <a href="http://teamconatus.000webhostapp.com/" target="_blank" style="text-decoration: none">
+                        Powered by Team Conatus
+                    </a>
+                </h4>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
+
+<!--Gallery-->
+
 <script>
+    var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 1500,
+            disableOnInteraction: false,
+        },
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
 
-
+<!--home page-->
+<script>
     let particles = []
     let microparticles = []
 
@@ -402,7 +521,7 @@
         render(){
             this.canvas.beginPath();
             this.canvas.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
-            // this.canvas.lineWidth = 2;
+            this.canvas.lineWidth = 2;
             this.canvas.shadowOffsetX = 0;
             this.canvas.shadowOffsetY = 0;
             // this.canvas.shadowBlur = 6;
@@ -489,7 +608,7 @@
         grd.addColorStop(0,"black");
         grd.addColorStop(1,"rgba(26,14,4,0)");
         // Fill with gradient
-        canvas.globalAlpha=0.16;
+        canvas.globalAlpha=5;
         canvas.fillStyle=grd;
         canvas.fillRect(0, 0, tela.width, tela.height);
     }
@@ -527,42 +646,13 @@
 
 <!--SCROLL BUTTON-->
 <script>
-    $(function() {
-        $('.ico').click (function() {
-            $('html, body').animate({scrollTop:900 }, 1000);
-            return false;
-        });
+    $('.scroll-down').click(function(){
+        $('html, body').animate({scrollTop:900}, 'slow');
     });
 </script>
 
-<!--GALLERY-->
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-    var swiper = new Swiper('.swiper-container', {
-        effect: 'coverflow',
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-            delay: 1500,
-            disableOnInteraction: false,
-        },
-        coverflowEffect: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows : true,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
+    AOS.init({duration:1000});
 </script>
 </html>

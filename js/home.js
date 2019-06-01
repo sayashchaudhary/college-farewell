@@ -18,9 +18,3 @@ var a = setInterval(function (){
     }
 },1000);
 
-$(document).ready(function(){
-
-    console.log("Jquery worked");
-
-});
-

@@ -217,8 +217,8 @@
     fill: black;
     -webkit-animation: scrolly 3s cubic-bezier(0.77, 0, 0.175, 1) forwards infinite;
     animation: scrolly 3s cubic-bezier(0.77, 0, 0.175, 1) forwards infinite;
-    -webkit-perspective: 9000px;
-    perspective: 5000px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-transform-origin: bottom;
@@ -369,3 +369,10 @@
 .navbar-nav li a:hover{
     background-color: red;
 }
+
+
+
+
+
+
+
