@@ -1,14 +1,15 @@
 .details{
-    float: right;
-    margin-bottom: 5vh;
+    /*float: right;*/
+    /*margin-bottom: 10vh;*/
+    /*padding-top: 10vh;*/
 }
-.details .finalists h3{
+.name{
     text-align: center;
 }
 .img-box{
     position: absolute;
-    top: 25px;
-    right:-8px;
+    top: 28px;
+    right: 20px;
 }
 .name{
     color:white;
@@ -19,7 +20,7 @@
 }
 .align{
     margin-top: 130px;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
 }
 .align .img-box{
     top: 160px;
@@ -27,35 +28,35 @@
 
 .align2{
     margin-top: 80px;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
 }
 .align2 .img-box{
     top: 110px;
 }
 .align3{
     margin-top: 40px;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
 }
 .align3 .img-box{
     top: 70px;
 }
 .align4{
     margin-top:30px;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
 }
 .align4 .img-box{
     top: 60px;
 }
 .align5{
     margin-top:-50px;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
 }
 .align5 .img-box{
     top:-20px;
 }
 .align6{
     margin-top: -50px;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
 }
 .align6 .img-box{
     top:-20px;
@@ -63,13 +64,14 @@
 .finalists img{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    width: 250px;
     /*max-width: 200px;*/
 }
 .finalists .img-box{
     border-radius:50%;
     /*min-width:10%;*/
-    /*max-width: 10px;*/
+    width: 50px;
 }
 .image img{
-    width:300px;
+    width:270px;
 }
