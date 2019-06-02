@@ -8,8 +8,8 @@
     width: 24px;
     height: 24px;
     margin-left: -12px;
-    border-left: 5px solid #19f6e8;
-    border-bottom: 5px solid #19f6e8;
+    border-left: 5px solid #ff417d;
+    border-bottom: 5px solid #ff417d;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-animation: sdb07 2s infinite;
@@ -18,12 +18,12 @@
     box-sizing: border-box;
 }
 .scroll a span:nth-of-type(1) {
-    top:490px;
+    top:95%;
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
 }
 .scroll a span:nth-of-type(2) {
-    top:520px;
+    top: 97.5%;
     -webkit-animation-delay: .15s;
     animation-delay: .15s;
 }

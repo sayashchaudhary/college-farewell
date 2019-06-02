@@ -1,8 +1,7 @@
 .swiper-container {
       width: 100%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      background-color: #000;
+      padding-top: 5%;
+      padding-bottom: 5%;
 }
 .swiper-slide {
       background-position: center;

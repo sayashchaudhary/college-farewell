@@ -1,7 +1,27 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600");
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 
-
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+}
+.heading1{
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 3%;
+    font-size: 40px;
+    color: #19f6e8;
+    top:0;
+}
+h3{
+    font-family: 'Quicksand', sans-serif;
+}
+h4{
+    font-family: 'Quicksand', sans-serif;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
 .landing {
     margin: 0;
     padding: 0;
@@ -18,7 +38,6 @@
     top: 60%;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
-    font-family:'Raleway', sans-serif;
 }
 
 .title h3 {
@@ -29,12 +48,10 @@
     line-height: 1;
     color: #FFFFFF;
     letter-spacing: 2px;
-    font-family: 'Raleway', sans-serif;
 }
 
 .title h1 {
     position: relative;
-    font-family: 'Montserrat', Arial, sans-serif;
     font-size: calc(20px + 5vw);
     font-weight: 700;
     color: #19f6e8;
@@ -366,13 +383,120 @@
 .navbar-brand {
     color: #19f6e8;
 }
-.navbar-nav li a:hover{
-    background-color: red;
+
+
+.navbar{
+    background: transparent !important;
 }
 
+.navbar-inverse{
+    border:none !important;
+}
+/* jQuery Styles
+===================================*/
+.navbar-scroll {
+    padding: 0;
+    background: black !important;
+    transition-duration: 2s;
+    transition: 2s ease-in-out;
+}
+@media (max-width: 367px){
+    .navbar-scroll{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .navbar-brand{
+        margin-left:0;
+    }
+}
+@keyframes move-background {
+    from {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    to {
+        -webkit-transform: translate3d(1000px, 0px, 0px);
+    }
+}
+@-webkit-keyframes move-background {
+    from {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    to {
+        -webkit-transform: translate3d(1000px, 0px, 0px);
+    }
+}
 
+@-moz-keyframes move-background {
+    from {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    to {
+        -webkit-transform: translate3d(1000px, 0px, 0px);
+    }
+}
 
+@-webkit-keyframes move-background {
+    from {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    to {
+        -webkit-transform: translate3d(1000px, 0px, 0px);
+    }
+}
 
+.background-container{
+    position: fixed;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+}
 
+.stars {
+    background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 0;
+    background-size: auto;
+}
 
+.twinkling{
+    width:1000px;
+    height: 100%;
+    background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repea t;
+    background-size: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
 
+    -moz-animation:move-background 70s linear infinite;
+    -ms-animation:move-background 70s linear infinite;
+    -o-animation:move-background 70s linear infinite;
+    -webkit-animation:move-background 70s linear infinite;
+    animation:move-background 70s linear infinite;
+
+}
+
+.clouds{
+    width:10000px;
+    height: 100%;
+    background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+    background-size: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+
+    -moz-animation:move-background 150s linear infinite;
+    -ms-animation:move-background 150s linear infinite;
+    -o-animation:move-background 150s linear infinite;
+    -webkit-animation:move-background 150s linear infinite;
+    animation:move-background 150s linear infinite;
+}

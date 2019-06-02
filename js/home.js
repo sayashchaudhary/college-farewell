@@ -17,4 +17,3 @@ var a = setInterval(function (){
         clearInterval(a);
     }
 },1000);
-

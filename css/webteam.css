@@ -18,16 +18,19 @@
     position: relative;
     display: inline-block;
 }
-
+.dropdown img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
 .dropdown-content {
     display: none;
     position: absolute;
-    right: 0;
+    right: -11px;
     background-color: white;
     width: 50px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    top:0;
+    top:-20px;
     border-bottom-left-radius: 20px;
     border-top-left-radius:20px;
 }
@@ -45,17 +48,18 @@
     text-decoration: none;
     display: block;
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
     animation: animatebottom 3s;
 }
 @keyframes animatebottom {
     from{
-        top:0;
+        top:-20px;
         opacity:0;
     }
     to{
-        top:1px;
+        top:-10px;
         opacity:1;
     }
 }
@@ -76,5 +80,5 @@
 }
 .heading,
 .heading a{
-    color: #19f6e8;
+    color:#19f6e8;
 }
