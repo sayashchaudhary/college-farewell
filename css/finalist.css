@@ -1,8 +1,4 @@
-.details{
-    /*float: right;*/
-    /*margin-bottom: 10vh;*/
-    /*padding-top: 10vh;*/
-}
+
 .name{
     text-align: center;
 }
@@ -20,7 +16,7 @@
 }
 .align{
     margin-top: 130px;
-    /*margin-left: 5%;*/
+
 }
 .align .img-box{
     top: 160px;
@@ -28,35 +24,35 @@
 
 .align2{
     margin-top: 80px;
-    /*margin-left: 5%;*/
+
 }
 .align2 .img-box{
     top: 110px;
 }
 .align3{
     margin-top: 40px;
-    /*margin-left: 5%;*/
+
 }
 .align3 .img-box{
     top: 70px;
 }
 .align4{
     margin-top:30px;
-    /*margin-left: 5%;*/
+
 }
 .align4 .img-box{
     top: 60px;
 }
 .align5{
     margin-top:-50px;
-    /*margin-left: 5%;*/
+
 }
 .align5 .img-box{
     top:-20px;
 }
 .align6{
     margin-top: -50px;
-    /*margin-left: 5%;*/
+
 }
 .align6 .img-box{
     top:-20px;
@@ -69,7 +65,7 @@
 }
 .finalists .img-box{
     border-radius:50%;
-    /*min-width:10%;*/
+
     width: 50px;
 }
 .image img{

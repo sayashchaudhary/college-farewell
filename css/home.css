@@ -6,13 +6,7 @@ body{
 h1{
     font-family: 'Quicksand', sans-serif;
 }
-.heading1{
-    font-family: 'Quicksand', sans-serif;
-    margin-bottom: 3%;
-    font-size: 40px;
-    color: #19f6e8;
-    top:0;
-}
+
 h3{
     font-family: 'Quicksand', sans-serif;
 }
@@ -393,7 +387,7 @@ p{
 
 .navbar-inverse{
     border:none !important;
-    font-weight: 600 !important;
+    font-weight: 550 !important;
 }
 /* jQuery Styles
 ===================================*/
@@ -503,6 +497,56 @@ p{
     -webkit-animation:move-background 150s linear infinite;
     animation:move-background 150s linear infinite;
 }
-.glow{
-    color:#ff417d;
+
+@font-face {
+    font-family: "stranger";
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/161676/BenguiatProITC-BoldCond.woff") format("woff");
+    font-weight: bold;
 }
+.heading1 {
+    -webkit-filter: drop-shadow(0 0 0.08em #19f6e8);
+    filter: drop-shadow(0 0 0.08em #19f6e8);
+    font-family: "stranger", georgia, serif;
+    font-size: 2vw;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 0.02em #ff417d;
+    text-transform: uppercase;
+    /*width: 5em;*/
+    text-align: center;
+    margin: 30vmin auto 0;
+    letter-spacing: -0.01em;
+    mix-blend-mode: screen;
+}
+.heading1 .glow {
+    display: block;
+    line-height: 0.8;
+}
+.heading1 .glow {
+    letter-spacing: -0.03em;
+    font-size: 1.3em;
+    line-height: 0.85;
+    vertical-align: -0.14em;
+}
+.heading1 .things {
+    display: flex;
+    line-height: 0.55;
+    width: 100%;
+    margin-top: -0.09em;
+}
+.heading1 .things:before, .heading1 .things:after {
+    content: "";
+    border: 0.02em solid #ff417d;
+    flex: 1;
+    height: 0.03em;
+    margin-top: 0.09em;
+    border-radius: 3px;
+    -webkit-filter: drop-shadow(0 0 0.08em #19f6e8);
+    filter: drop-shadow(0 0 0.08em #19f6e8);
+}
+.heading1 .things:before {
+    margin-right: 0.05em;
+}
+.heading1 .things:after {
+    margin-left: 0.05em;
+}
+
