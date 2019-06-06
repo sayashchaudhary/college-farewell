@@ -9,7 +9,7 @@
     top: -230px;
     left: 230px;
 }
-.card h1,
+.card h3,
 .card p{
     padding-left: 4%;
     padding-right: 1%;
@@ -27,7 +27,7 @@
 .covenor img{
     float:right;
 }
-.card1 h1,
+.card1 h3,
 .card1 p{
     padding-left: 4%;
     padding-right: 1%;
