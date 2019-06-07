@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 
-body{
+/* body{
     font-family: 'Quicksand', sans-serif;
-}
+} */
 h1{
     font-family: 'Quicksand', sans-serif;
 }
@@ -396,7 +396,7 @@ p{
 ===================================*/
 .navbar-scroll {
     padding: 0;
-    background: #1a1a1a !important;
+    background: #0a0f0f !important;
     transition-duration: 2s;
     transition: 2s ease-in-out;
 }
