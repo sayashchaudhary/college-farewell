@@ -21,14 +21,19 @@
     background-color: #FFFFFF;
     border-radius:6px;
     position: relative;
-    top: -50px;
-    left: 30%;
+    top: -180px;
+    left: 24%;
 }
 .covenor img{
-    float:right;
+    margin-left: 70%;
 }
 .card1 h3,
 .card1 p{
     padding-left: 4%;
     padding-right: 1%;
+}
+@media (max-width:740px) {
+  .card1 p{
+    left:2000%;
+  }
 }

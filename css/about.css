@@ -1,5 +1,5 @@
 .content{
-    padding-left: 5%;
+    padding-left: 10%;
     color: #19f6e8;
     /*padding-top: 25%;*/
     /*position: relative;*/
@@ -23,4 +23,10 @@
 }
 .image1{
     width:450px;
+    padding-left: -20%;
+}
+@media(max-width:767px){
+  .content{
+    padding-left: 25%;
+  }
 }
