@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@font-face {
+    font-family: A-cuchillada-font-ffp;
+    src: url("../assets/fonts/A-cuchillada-font-ffp.ttf");
+}
 
 /* body{
     font-family: 'Quicksand', sans-serif;
@@ -379,6 +383,9 @@ p{
 }
 .navbar-brand {
     color: #19f6e8;
+    font-family: "A-cuchillada-font-ffp", sans-serif;
+    font-weight: 300;
+
 }
 .navbar-nav li a:hover{
     border-bottom: 1px solid white !important;
