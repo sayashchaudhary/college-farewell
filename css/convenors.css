@@ -21,7 +21,7 @@
     background-color: #FFFFFF;
     border-radius:6px;
     position: relative;
-    top: -180px;
+    top: -210px;
     left: 24%;
 }
 .covenor img{
@@ -31,9 +31,4 @@
 .card1 p{
     padding-left: 4%;
     padding-right: 1%;
-}
-@media (max-width:740px) {
-  .card1 p{
-    left:2000%;
-  }
 }
