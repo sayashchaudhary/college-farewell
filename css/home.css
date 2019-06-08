@@ -51,7 +51,6 @@ p{
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
 }
-
 .title h3 {
     font-weight: 200;
     font-size: 20px;
@@ -397,7 +396,6 @@ p{
     /*font-size: 30px;*/
     font-family: "DK Momotaro", sans-serif;
     font-weight: 300;
-    left:-20px;
 
 }
 .navbar-nav li a:hover{
@@ -421,7 +419,7 @@ p{
     transition-duration: 2s;
     transition: 2s ease-in-out;
 }
-@media (max-width: 367px){
+/* @media (max-width: 367px){
     .navbar-scroll{
         margin-left:auto;
         margin-right:auto;
@@ -429,7 +427,7 @@ p{
     .navbar-brand{
         margin-left:0;
     }
-}
+} */
 @keyframes move-background {
     from {
         -webkit-transform: translate3d(0px, 0px, 0px);
@@ -520,4 +518,62 @@ p{
     -o-animation:move-background 150s linear infinite;
     -webkit-animation:move-background 150s linear infinite;
     animation:move-background 150s linear infinite;
+}
+@media (max-width:767px){
+  .title{
+    top:90%;
+    left:45%;
+  }
+  .card img{
+    padding-left: 20% !important;
+  }
+  .navbar{
+    width:95%;
+  }
+  .about{
+    padding-top:250%;
+  }
+  .about img{
+    padding-left: 15% !important;
+  }
+  .content{
+    margin-left: -10% !important;
+  }
+  .content h3{
+    font-size:15px !important;
+  }
+.item img{
+      overflow: hidden !important;
+      width:95% !important;
+  }
+  .box{
+    padding-left: 10%;
+  }
+  .organizer{
+    padding-left: 2% !important;
+  }
+  .organizer img{
+    margin-left: -10% !important;
+    width:200px !important;
+    height:200px !important;
+  }
+  .row{
+    overflow: hidden !important;
+  }
+  .image1{
+    width:250px !important;
+  }
+  .heading a{
+    font-size:1.5rem !important;
+  }
+  .clouds{
+    width:85% !important;
+  }
+  .twinkling{
+    width: 80% !important;
+  }
+  .background-container{
+    width: 95%;
+    overflow: hidden;
+  }
 }
