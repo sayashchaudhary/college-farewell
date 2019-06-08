@@ -3,6 +3,18 @@
     font-family: A-cuchillada-font-ffp;
     src: url("../assets/fonts/A-cuchillada-font-ffp.ttf");
 }
+@font-face {
+    font-family: Snowboarding;
+    src: url("../assets/fonts/Snowboarding.ttf");
+}
+@font-face {
+    font-family: BrushHandNew;
+    src: url("../assets/fonts/BrushHandNew.ttf");
+}
+@font-face {
+    font-family: DK Momotaro;
+    src: url("../assets/fonts/DK Momotaro.ttf");
+}
 
 /* body{
     font-family: 'Quicksand', sans-serif;
@@ -33,14 +45,12 @@ p{
 }
 
 .title {
-    z-index: 10;
     position: absolute;
     left: 50%;
     top: 60%;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
 }
-
 .title h3 {
     font-weight: 200;
     font-size: 20px;
@@ -383,7 +393,8 @@ p{
 }
 .navbar-brand {
     color: #19f6e8;
-    font-family: "A-cuchillada-font-ffp", sans-serif;
+    /*font-size: 30px;*/
+    font-family: "DK Momotaro", sans-serif;
     font-weight: 300;
 
 }
@@ -403,11 +414,12 @@ p{
 ===================================*/
 .navbar-scroll {
     padding: 0;
-    background: #0a0f0f !important;
+    /*background: #0a0f0f !important;*/
+    background: rgba(0,0,0,.9) !important;  /* fallback for old browsers */
     transition-duration: 2s;
     transition: 2s ease-in-out;
 }
-@media (max-width: 367px){
+/* @media (max-width: 367px){
     .navbar-scroll{
         margin-left:auto;
         margin-right:auto;
@@ -415,7 +427,7 @@ p{
     .navbar-brand{
         margin-left:0;
     }
-}
+} */
 @keyframes move-background {
     from {
         -webkit-transform: translate3d(0px, 0px, 0px);
@@ -506,4 +518,62 @@ p{
     -o-animation:move-background 150s linear infinite;
     -webkit-animation:move-background 150s linear infinite;
     animation:move-background 150s linear infinite;
+}
+@media (max-width:767px){
+  .title{
+    top:90%;
+    left:50%;
+  }
+  .card img{
+    padding-left: 25% !important;
+  }
+  .navbar{
+    width:100%;
+  }
+  .about{
+    padding-top:250%;
+  }
+  .about img{
+    padding-left: 25% !important;
+  }
+  .content{
+    margin-left: -10% !important;
+  }
+  .content h3{
+    font-size:15px !important;
+  }
+  .navbar-nav li a{
+    width:100%;
+    color: white !important;
+    margin-left: -80%;
+  }
+  .title h3{
+    font-size:15px !important;
+  }
+.item img{
+      overflow: hidden !important;
+      width:100% !important;
+  }
+  .box{
+    padding-left: 10%;
+  }
+  .organizer{
+    padding-left: 5% !important;
+  }
+  .organizer img{
+    margin-left: -5% !important;
+    width:200px !important;
+    height:200px !important;
+  }
+
+  .image1{
+    width:250px !important;
+  }
+  .heading a{
+    font-size:1.5rem !important;
+  }
+  .background-container{
+    width: 100% !important;
+    overflow: hidden;
+  }
 }
