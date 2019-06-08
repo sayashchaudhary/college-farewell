@@ -1,37 +1,4 @@
-/*
-.card{
-    padding-top: 1px;
-    padding-bottom: 1px;
-    width:50%;
-    background-color: #FFFFFF;
-    position: relative;
-    border-radius: 6px;
-    top: -200px;
-    left: 210px;
-}
-.card h3,
-.card p{
-    padding-left: 4%;
-    padding-right: 1%;
-}
-.card1{
-    padding-top: 1px;
-    padding-bottom: 1px;
-    width:50%;
-    background-color: #FFFFFF;
-    border-radius:6px;
-    position: relative;
-    top: -210px;
-    left: 24%;
-}
-.covenor img{
-    margin-left: 70%;
-}
-.card1 h3,
-.card1 p{
-    padding-left: 4%;
-    padding-right: 1%; */
-}
+
 .card {
   width:250px;
   height:250px;
