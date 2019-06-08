@@ -398,6 +398,7 @@ p{
     /*font-size: 30px;*/
     font-family: "DK Momotaro", sans-serif;
     font-weight: 300;
+    left:-20px;
 
 }
 .navbar-nav li a:hover{

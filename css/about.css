@@ -4,12 +4,6 @@
     /*padding-top: 25%;*/
     /*position: relative;*/
 }
-#about{
-    background-color: black;
-}
-.organizer{
-    background-color: black;
-}
 .animate {
     opacity: 0;
     transform: translateY(4em) rotateZ(0deg);
@@ -25,4 +19,3 @@
     width:450px;
     padding-left: -20%;
 }
-
