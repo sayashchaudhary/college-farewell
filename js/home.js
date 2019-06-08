@@ -14,6 +14,14 @@ var a = setInterval(function (){
     document.getElementById('seconds').innerHTML = seconds;
 
     if (b <=0) {
-        clearInterval(a);
+        var days = 0;
+        var hours = 0;
+        var minutes = 0;
+        var seconds = 0;
+
+        document.getElementById('days').innerHTML = days;
+        document.getElementById('hours').innerHTML = hours;
+        document.getElementById('minutes').innerHTML = minutes;
+        document.getElementById('seconds').innerHTML = seconds;
     }
 },1000);
