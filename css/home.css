@@ -3,6 +3,18 @@
     font-family: A-cuchillada-font-ffp;
     src: url("../assets/fonts/A-cuchillada-font-ffp.ttf");
 }
+@font-face {
+    font-family: Snowboarding;
+    src: url("../assets/fonts/Snowboarding.ttf");
+}
+@font-face {
+    font-family: BrushHandNew;
+    src: url("../assets/fonts/BrushHandNew.ttf");
+}
+@font-face {
+    font-family: DK Momotaro;
+    src: url("../assets/fonts/DK Momotaro.ttf");
+}
 
 /* body{
     font-family: 'Quicksand', sans-serif;
@@ -383,7 +395,8 @@ p{
 }
 .navbar-brand {
     color: #19f6e8;
-    font-family: "A-cuchillada-font-ffp", sans-serif;
+    /*font-size: 30px;*/
+    font-family: "DK Momotaro", sans-serif;
     font-weight: 300;
 
 }
@@ -403,7 +416,8 @@ p{
 ===================================*/
 .navbar-scroll {
     padding: 0;
-    background: #0a0f0f !important;
+    /*background: #0a0f0f !important;*/
+    background: rgba(0,0,0,.9) !important;  /* fallback for old browsers */
     transition-duration: 2s;
     transition: 2s ease-in-out;
 }
