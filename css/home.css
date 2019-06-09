@@ -576,4 +576,7 @@ p{
     width: 100% !important;
     overflow: hidden;
   }
+  .box{
+    margin-left:10% !important;
+  }
 }
